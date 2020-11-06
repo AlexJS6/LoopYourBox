@@ -32,6 +32,7 @@ mongoose
 app.use(express.urlencoded({ extended: false }));
 
 //app.use(express.static("./public"));
+app.use(bodyParser.json());
 
 app.use(cookieParser());
 
